@@ -1,0 +1,31 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A: Using diff, i didn't have to go through the whole code at all.
+It showed all the differences. And it was easy to spot the typo. Then with a quick search, The error was corrected.
+On Windows $fc old_file new_file
+On Linux $diff old_file new_file
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: It would make it easy to debug & change things, maintain and retrieve different versions of the files as and when needed.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+A:
+				Pros                       ||               Cons 
+>Won't have too many versions.             ||     >Need to remember to commit everytime.
+>Will know what change each version has.   ||	  >If you forget to commit, very difficult to find the 
+										   ||	  changes made.
+
+$git diff old_git_id new_git_id
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A: In the repository, run git log to see all the commits from the latest to the earliest. When you find the commit 
+with the right message, press q to quit git log. Then run git diff old_id new_id to see the changes made in this commit.
+Remember, In the log, the old commit comes after the commit with your message.
+
+Q: How might using version control make you more confident to make changes that could break something?
+A: If something breaks, then it is very easy to go back to the previous version. It is also easy to track down in 
+which commit the problem first arose.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: Need to use Git to handle a new project that I'm currently doing. It will come in handy because I 
+might have to make changes in many files. Git would be useful in keeping track of all these changes.
