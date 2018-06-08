@@ -1,0 +1,9 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: Git creates and stores some metadata in a hidden folder named .git. Once you initialize a repository,
+you can make commits and track the changes you make efficiently.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: The staging area is used when you want to commit only specific files. Add the files you want to commit to the staging
+area using git add file_name. Sometimes, you may not want to commit changes to many files in one commit. It would be
+useful when you initialize a repository because you can commit each file in a separate commit. Or you could commit 
+specific groups of files together.  
