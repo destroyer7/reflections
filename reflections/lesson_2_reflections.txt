@@ -7,3 +7,13 @@ A: The staging area is used when you want to commit only specific files. Add the
 area using git add file_name. Sometimes, you may not want to commit changes to many files in one commit. It would be
 useful when you initialize a repository because you can commit each file in a separate commit. Or you could commit 
 specific groups of files together.  
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: You could choose to add only file to the staging area ( a file with 1 logical change ) instead of all the files 
+in the repository and then commit it.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: You could make a new branch when you would want to experiment on a new feature. With branches, it is still possible 
+to maintain the latest commits of all your experiments separately without having them all in the same linear order. It 
+would not mix up experiments with your main repository. If you want to merge two experiments later on, you could merge
+these brances.
