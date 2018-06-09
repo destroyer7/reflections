@@ -25,3 +25,9 @@ commits.
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A: When you merge two branches, changes from both the branches are incorporated into a new commit and this commit is now
 labelled master. Both the branches can be reached with this new master. The new master has information of both the parents
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: 
+				Pros                       ||               Cons 
+>Reduces human effort                      ||     >You might not want all the changes to happen
+>Points you directly to the conflicts      ||	  >Sometimes it might leave your code unsuable
