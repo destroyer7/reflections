@@ -17,3 +17,7 @@ A: You could make a new branch when you would want to experiment on a new featur
 to maintain the latest commits of all your experiments separately without having them all in the same linear order. It 
 would not mix up experiments with your main repository. If you want to merge two experiments later on, you could merge
 these brances.
+
+Q:How do the diagrams help you visualize the branch structure?
+A:It's easy to go to the version that you want to. It makes it easy reach different commits. It also shows non reachable
+commits.
