@@ -21,3 +21,7 @@ these brances.
 Q:How do the diagrams help you visualize the branch structure?
 A:It's easy to go to the version that you want to. It makes it easy reach different commits. It also shows non reachable
 commits.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: When you merge two branches, changes from both the branches are incorporated into a new commit and this commit is now
+labelled master. Both the branches can be reached with this new master. The new master has information of both the parents
