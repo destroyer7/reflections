@@ -17,3 +17,11 @@ Q: How would you collaborate without using Git or GitHub? What would be easier,
 and what would be harder?
 A: By sharing files via pen-drives & e-mail. The only easy thing is that it would 
 not necessarily need an internet connection.
+
+Q: When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+A: When I'mm not sure if it would work or if all the collaborators would agree on the
+change. If it is the same branch, you just have to make a commit, so this takes less
+time. If you create a branch, you would have to merge it later and this might induce 
+conflicts. But, a new branch means you can experiment as much as you want without
+messing up the master branch.
