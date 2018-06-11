@@ -7,3 +7,8 @@ Q: Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 A:If other people have made changes in remote, you will be pulling all these changes,
 sometimes you might not want this. You may want to continue on your own work 
+
+Q: What is the benefit of having a copy of the last known state of the remote stored
+locally?
+A: If something gets updated on GitHub only, then we merge those changes into our
+local master with git pull origin/master.
