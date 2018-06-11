@@ -12,3 +12,8 @@ Q: What is the benefit of having a copy of the last known state of the remote st
 locally?
 A: If something gets updated on GitHub only, then we merge those changes into our
 local master with git pull origin/master.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+A: By sharing files via pen-drives & e-mail. The only easy thing is that it would 
+not necessarily need an internet connection.
